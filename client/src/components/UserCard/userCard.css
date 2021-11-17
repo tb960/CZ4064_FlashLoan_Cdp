@@ -1,0 +1,117 @@
+.contain-size{
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+.card-size{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px 8px 8px 8px;
+}
+
+/* .card-size:hover{
+    cursor: pointer;
+        margin-top: 1px;
+    box-shadow: 1px 1px 1px 1px #838383;
+} */
+
+.upper-body{
+    padding-bottom: 0px;
+}
+
+.upper-container{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.company-logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.company-img{
+    width: 10.5rem;
+    height:10.5rem;
+}
+
+.name-pay{
+    margin-bottom: 2px;
+    font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+    font-size: 0.85rem;
+}
+
+.job-title{
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    line-height: 150%;
+    margin-bottom: 0px;
+    font-size: 1.2rem;
+    font-weight:600;
+}
+
+.middle{
+    margin-top: 20px;
+}
+
+.time{
+    text-align: left;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.time p{
+    font-style: italic;
+    color: rgb(131,131,131);
+}
+
+.title{
+    text-align: right;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.line-break{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.specialisation-container{
+    background-color: #DDF7E9;
+    color: #1FC76A;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 8px;
+    float: right;
+}
+
+.tech-stack-container{
+    background-color: #F1F1F1;
+    color: #838383;
+    font-family: 'Roboto Mono', 'Consolas', monospace;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 8px;
+    margin-right:4px;
+    display: inline-block;
+    max-width: 90%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.lower-body{
+    background-color: #FFFFFF;
+    padding: 12px 20px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    min-height: 54px;
+}
+
+@media screen and (max-width: 575.9px){
+    .job-title{
+        font-size: 100%;
+    }
+}
