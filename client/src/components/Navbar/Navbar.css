@@ -1,0 +1,8 @@
+.Nav-header-style{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    padding-top: 15px;
+    padding-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
