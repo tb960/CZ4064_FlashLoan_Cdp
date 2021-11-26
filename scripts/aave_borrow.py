@@ -16,12 +16,13 @@ def main():
     # ABI
     # Address
     lending_pool = get_lending_pool()
+    print(lending_pool);
     # approve erc 20 token
     approve_erc20(amount, lending_pool.address, erc20_address, account)
-    # print("Depositing")
-    # tx = lending_pool.deposit(erc20_address, amount, account.address, 0, {"from":account})
-    # tx.wait(1)
-    # print("Deposited")
+    print("Depositing")
+    tx = lending_pool.deposit(erc20_address, amount, account.address, 0, {"from":account})
+    tx.wait(1)
+    print("Deposited")
 
     #now i want to check the user account in the lending pool
     borrowable_eth, total_debt = get_borrowable_data(account, lending_pool)
